@@ -46,8 +46,9 @@ def map(pos):
         button = [
             [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/NET_HACKER_BOTs_chat")],
             [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
-            [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")],
-            [InlineKeyboardButton(text = 'Repo', url="https://github.com/supunpriyashanka/Net-Foce-Sub-Bot")]
+            [InlineKeyboardButton(text = 'Repo', url="https://github.com/supunpriyashanka/Net-Foce-Sub-Bot")],
+            [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
+            
         ]
     else:
         button = [
