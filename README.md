@@ -1,6 +1,6 @@
 # Introduction
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
-- Find it on Telegram as [Promoter](https://t.me/ForceSubscribeBot)
+- Find it on Telegram as [Promoter](http://t.me/Net_FoceSubBot)
 
 ## Todo
 - [ ] Add multiple channels support
@@ -9,7 +9,7 @@
 - [ ] LOGGER support.
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/force-subscribe-telegram-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/supunpriyashanka/Net-Foce-Sub-Bot)
 
 
 ### Installation
@@ -36,5 +36,5 @@ python3 bot.py
 ```
 
 ## Thanks to
-- [PyroGram](https://PyroGram.org)
-- [Hasibul Kabir](https://GitHub.com/hasibulkabir) and [Spechide](https://GitHub.com/spechide) for helping.
+- [Jijinr](https://github.com/Jijinr)
+- [Bhashitha](https://github.com/ImBhashitha).
