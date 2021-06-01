@@ -6,9 +6,9 @@
     "best",
     "force sub Bot"
   ],
-  "success_url": "https://t.me/DForDarkAngel",
-  "website": "https://github.com/Jijinr/force-subscribe-telegram-bot",
-  "repository": "https://github.com/Jijinr/force-subscribe-telegram-bot",
+  "success_url": "https://t.me/Supun_priyashanka",
+  "website": "https://github.com/supunpriyashanka/Net-Foce-Sub-Bot",
+  "repository": "https://github.com/supunpriyashanka/Net-Foce-Sub-Bot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
@@ -28,7 +28,7 @@
     },
     "SUDO_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "809546777"
+      "value": "1337687161"
     }
   },
   "addons": [
