@@ -42,10 +42,10 @@ def map(pos):
             [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = "https://t.me/NET_HACKER_BOTs_chat"
+        url = "https://t.me/NET_HACKER_BOTs"
         button = [
             [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/NET_HACKER_BOTs_chat")],
-            [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
+            [InlineKeyboardButton(text = 'Support Channel', url=url)],
             [InlineKeyboardButton(text = 'Repo', url="https://github.com/supunpriyashanka/Net-Foce-Sub-Bot")],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
             
