@@ -25,7 +25,7 @@ def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               cb.message.delete()
           except UserNotParticipant:
-            client.answer_callback_query(cb.id, text="❗ Join the mentioned 'channel' and press the 'UnMute Me' button again.", show_alert=True)
+            client.answer_callback_query(cb.id, text="🔑 කරැනාකර Join Chanel මගින් අපේ Channel එකට Join වී නැවත මෙම button එක ඔබන්න ☺️.", show_alert=True)
       else:
         client.answer_callback_query(cb.id, text="❗ You are muted by admins for other reasons.", show_alert=True)
     else:
@@ -56,7 +56,7 @@ def _check_member(client, message):
           ]]
           reply_markup = InlineKeyboardMarkup(buttons)
           sent_message = message.reply_text(
-              "{}, you are **not subscribed** to my channel yet. Please join and **press the button below** to unmute yourself.".format(message.from_user.mention),
+              "{}, **ඔයා තවම අපේ Telegram Channel එකට Join වෙලා නෑ.** ඒ නිසා ඔබව Mute වී තිබේ 🥺. **Join Channel Button** එක මගින් අපේ Channel එකට Join වේ **Unmute Me Botton** එක දෙන්න **එවිට unmute වේ** 😍😉.".format(message.from_user.mention),
               disable_web_page_preview=True,
               reply_markup=reply_markup
           )
