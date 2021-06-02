@@ -34,9 +34,3 @@ class Messages():
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
-            [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/NET_HACKER_BOTs_chat")],
-            [InlineKeyboardButton(text = 'Support Channel', url=url)],
-            [InlineKeyboardButton(text = 'Repo', url="https://github.com/supunpriyashanka/Net-Foce-Sub-Bot")],
-            
-            
-      
